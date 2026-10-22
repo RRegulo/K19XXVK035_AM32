@@ -25,7 +25,7 @@
 - IDE: [VScode](https://code.visualstudio.com/download)
 - SDK: [K1921VKx_SDK](https://gitflic.ru/project/niiet/k1921vkx_sdk) (уже в проекте)
 
-[Инструкция по сборке и прошивке](https://github.com/GooDroneru/K19XXVK035_AM32/tree/main/content/K19XXVK035_AM32.pdf)
+[Инструкция по сборке и прошивке](content/K19XXVK035_AM32.pdf)
 
 ## ⚙️ Поддерживаемые платы
 
@@ -33,15 +33,13 @@ GD80V1	✅ Работает
 
 GD100V1	✅ Работает
 
-https://goodroneru.ru/
-
 ## 📜 Принципиальная схема ESC (упрощённая версия)
 
-![Схема](https://github.com/GooDroneru/K19XXVK035_AM32/blob/main/Images/scheme.jpg)
+![Схема](Images/scheme.jpg)
 
 PB7, PB6, PB5 - принимают сигналы внешних компараторов сравнивающих обратный ЭДС свободной фазы с напряжением общей точки всех фаз. [Более подробно](https://github.com/vladBaciu/Sensorless-BLDC-controller).
 
-![BEMF](https://github.com/GooDroneru/K19XXVK035_AM32/blob/main/Images/bemf.png)
+![BEMF](Images/bemf.png)
 
 PB0, PB1, PB2 - измерение напряжение батареи через делитель, измерение тока через диф усилитель, измерение температуры через NTC термистор.
 
@@ -70,19 +68,3 @@ PB10 - выход телеметрии.
 ## 📬 Для связи
 
 ✉ Email: vgtutf081@gmail.com
-
-## 🔧 Присоединяйтесь к нашему Telegram-каналу!
-
-В канале вы найдете:
-📌 Дневник разработки этого проекта с техническими деталями и лайфхаками
-📌 Эксклюзивные материалы по электронике и embedded-разработке
-📌 Разборы сложных моментов и полезные примеры кода
-
-Подписывайтесь, чтобы не пропустить новые статьи и обсуждения:
-[t.me/GoodRoneRnD](https://t.me/GooDroneRnD)
-
-
-
-
-
-
